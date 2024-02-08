@@ -6,7 +6,7 @@ Change the **statement** rule so that the production for assignments (ID=INTEGER
 
 ## Steps
 
-1. Go to the file `Javamm.g4 ` and change the assignment of the statement rule so it accepts expressions in general:
+1. Go to the file `Javamm.g4` and change the assignment of the statement rule so it accepts expressions in general:
 ```g4
 statement  
 : expression ';' #ExprStmt  
