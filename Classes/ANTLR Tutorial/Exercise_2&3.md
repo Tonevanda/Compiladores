@@ -18,11 +18,11 @@ expression
 
 2. Create the `dealWithParenthesis()` method:
 
-	```java
-	private String dealWithParenthesis(JmmNode jmmNode, String s) {  
-	    return "(" + visit(jmmNode.getChildren().get(0)) + ")";  
-	}
-	```
+```java
+private String dealWithParenthesis(JmmNode jmmNode, String s) {  
+    return "(" + visit(jmmNode.getChildren().get(0)) + ")";  
+}
+```
 
 3. Furthermore, we need to add a new line to the `buildVisitor` method, to include the **parenthesis** situation:
 
