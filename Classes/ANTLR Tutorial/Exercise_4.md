@@ -1,4 +1,4 @@
-# Exercise 5
+# Exercise 4
 
 Adapt the **expression** rule to include the logical and (`&&`) operator and the less-than (`<`) operator. Do not forget to check Java operators precedence. Do you need to change the `JavaCalcVisitor` class?
 
