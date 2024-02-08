@@ -38,4 +38,4 @@ protected void buildVisitor() {
 }
 ```
 
-This 3rd step is necessary because, without it, the program would not know how to deal when encountering a parenthesis expression node otherwise.
+This 3rd step is necessary because, without it, the program would not know what to do when encountering a parenthesis expression node otherwise.
