@@ -1,5 +1,19 @@
 # Lexical Analysis
 
+## Table of Contents
+
+- [NFA to DFA Conversion](#nfa-to-dfa-conversion)
+    - [Step 1](#step-1---create-nfas-transition-table)
+    - [Step 2](#step-2---create-dfas-start-state)
+    - [Step 3](#step-3---create-dfa-transition-table)
+    - [Step 4](#step-4---create-dfa-final-state)
+    - [Step 5](#step-5---simplify-dfa)
+    - [Step 6](#step-6---repeat)
+- [DFA to RE Conversion](#dfa-to-re-conversion)
+    - [Step 1](#step-1---create-new-start-state)
+    - [Step 2](#step-2---create-new-final-state)
+    - [Step 3](#step-3---reduction) 
+
 ## NFA to DFA Conversion
 
 **Reminder**: The closure of a state is the set of states that can be reached from it using only a certain symbol
